@@ -30,9 +30,9 @@ sources:
     tables:
       - name: raw_listings
   - name: raw
-  tables:
-    - name: raw_hosts
-    - name: raw
+    tables:
+      - name: raw_hosts
+  - name: raw
     tables:
       - name: raw_reviews
       
