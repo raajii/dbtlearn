@@ -1,6 +1,6 @@
 -- import raw_listings
 WITH raw_listings AS (
-        SELECT * FROM {{ source('raw', 'listings') }}
+        SELECT * FROM {{ source('raw', 'raw_listings') }}
 )
 SELECT 
    id AS listing_id,
