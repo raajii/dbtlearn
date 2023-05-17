@@ -25,7 +25,6 @@ sources:
           warn_after: {count: 1, period: hour}
           error_after: {count: 24, period: hour}
 
-sources:
   - name: raw
     tables:
       - name: raw_listings
