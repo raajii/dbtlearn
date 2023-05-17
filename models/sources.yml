@@ -26,6 +26,6 @@ sources:
           error_after: {count: 24, period: hour}
 
 sources:
-  - name: raw.raw_listings
+  - name: raw
     tables:
       - name: raw_listings
