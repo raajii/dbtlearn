@@ -34,4 +34,7 @@ sources:
   - name: raw
     tables:
       - name: raw_reviews
+  - name: s3
+    tables:
+      - name: netflix_titles
       
